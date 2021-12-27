@@ -1,0 +1,138 @@
+*, *::before,*::after{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* alt + arrows */
+.container{
+    max-width: 900px;
+    margin: 0px auto; 
+}
+.row{
+    width: 100%;
+}
+
+.heading-3{
+    margin: 3px 0px;
+}
+
+.add-product-area{
+    width: 50%;
+    background-color: grey;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.form-group{
+    width: 100%;
+    margin: 2px;
+}
+
+.form-group>label{
+    display: inline-block;
+    width: 30%;
+}
+
+.form-control{
+    width: 65%;
+    padding: 3px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-warning{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover{
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+/* ctrl + D */
+.btn-danger{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover{
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+table{
+    width: 100%;
+}
+table, tr, th, td{
+    border-collapse: collapse;
+    border:1px solid black;
+}
+td, th{
+    padding: 3px 0px;
+}
+table>thead{
+    color:white;
+    background-color: black;
+}
+
+table>tbody>tr:nth-child(odd){
+    background-color: rgb(204, 203, 203);
+}
+
+table>tbody>tr:hover{
+    background-color: gray;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.pagination>li{
+    display: inline-block;
+}
+
+.page-item{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e0a800;
+    color: white;
+}
+
+.page-item:hover{
+    background-color: #f0b609;
+    cursor: pointer;
+}
+
+.active{
+    background-color: forestgreen;
+}
+.active:hover{
+    background-color: rgb(36, 153, 36);
+}
