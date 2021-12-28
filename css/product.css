@@ -87,10 +87,10 @@ table{
 }
 table, tr, th, td{
     border-collapse: collapse;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 td, th{
-    padding: 3px 0px;
+    padding: 3px 3px;
 }
 table>thead{
     color:white;
@@ -112,6 +112,9 @@ table>tbody>tr:hover{
     text-align: right;
 }
 
+.pagination{
+    list-style: none;
+}
 .pagination>li{
     display: inline-block;
 }
@@ -135,4 +138,8 @@ table>tbody>tr:hover{
 }
 .active:hover{
     background-color: rgb(36, 153, 36);
+}
+
+.d-none{
+    display: none;
 }
